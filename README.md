@@ -34,7 +34,7 @@ Input  Maastricht afbeelding in TIFF.
 
 Output Tegels van 1000x1000 in TIFF.
 
-![voorbeeld_satelliet_tile](voorbeeld_satelliet_tile.jpg)
+![voorbeeld_tegel](voorbeeld tegel.jpg)
 
 ***
 
