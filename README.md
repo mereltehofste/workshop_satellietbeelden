@@ -7,8 +7,7 @@ Als eerste hebben we de satellietdata gedownload van Maastricht. Vervolgens deze
 
 Hieronder de code die hiervoor gebruikt is:
 
-`
-import os, gdal
+`import os, gdal
 
 in_path =r"PATH/Maastricht.tif"
 
@@ -25,11 +24,10 @@ ysize = band.YSize
 for i in range(0, xsize, tile_size_x):
     for j in range(0, ysize, tile_size_y):
         com_string = "gdal_translate -of GTIFF -srcwin " + str(i)+ ", " + str(j) + ", " + str(tile_size_x) + ", " + str(tile_size_y) + " " + str(in_path) + " " + str(out_path) + str(i) + "_" + str(j) + ".tif"
-        os.system(com_string)
-`
+        os.system(com_string)`
 Input  Maastricht afbeelding in TIFF.
 
-
+![Maastricht](Maastricht.jpg)
 
 Output Tegels van 1000x1000 in TIFF.
 
