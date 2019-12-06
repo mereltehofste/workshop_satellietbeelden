@@ -26,13 +26,13 @@ for i in range(0, xsize, tile_size_x):
         com_string = "gdal_translate -of GTIFF -srcwin " + str(i)+ ", " + str(j) + ", " + str(tile_size_x) + ", " + str(tile_size_y) + " " + str(in_path) + " " + str(out_path) + str(i) + "_" + str(j) + ".tif"
         os.system(com_string)`
 Input  Maastricht afbeelding in TIFF.
-
+<br>
 ![Maastricht](Maastricht.jpg)
-
+<br>
 Output Tegels van 1000x1000 in TIFF.
-
-![Voorbeeld opgeknipte tegel](voorbeeld_satelliet_tile_RB.tif)
-
+<br>
+![Voorbeeld opgeknipte tegel](voorbeeld_satelliet_tile_RB.tif.tif)
+<br>
 ## Stap 2: NWB shape omzetten naar tif file
 
 
