@@ -34,7 +34,7 @@ Input  Maastricht afbeelding in TIFF.
 
 Output Tegels van 1000x1000 in TIFF.
 
-![Voorbeeld opgeknipte tegel](voorbeeld_satelliet_tile_RB.tif.tif)
+![Voorbeeld opgeknipte tegel](voorbeeld_satelliet_tile.tif.tif)
 
 ## Stap 2: NWB shape omzetten naar tif file
 
